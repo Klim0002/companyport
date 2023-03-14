@@ -1,0 +1,23 @@
+@import "./defaults/color";
+@import "./components/header";
+@import "./components/footer";
+@import "./pages/home.scss";
+
+@mixin background-stuff() {
+    background-color: $primary-background;
+    padding: 16px;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    background-color: #a5a5a5;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
