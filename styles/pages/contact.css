@@ -1,0 +1,48 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main h2 {
+  color: #1C3C5C;
+}
+main form .form-elements {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+main form .form-elements label {
+  font-size: 1.2rem;
+}
+main form .form-elements .form-input {
+  border: 1 px solid #45A7C5;
+  border-radius: 4px;
+  outline: none;
+  font-size: 1.2rem;
+}
+main form .form-elements .form-input:not(.form-textarea) {
+  height: 32px;
+}
+main form .form-elements .form-input.form-textarea {
+  resize: none;
+}
+main form .form-elements .form-input:focus {
+  box-shadow: 0 0 8px 3px #45A7C5;
+}
+main form .btn-div {
+  text-align: center;
+  margin-bottom: 200px;
+}
+main form .btn-div #submit {
+  height: 40px;
+  min-width: 120px;
+  background-color: #45A7C5;
+  color: #1C3C5C;
+  border-radius: none;
+  border: none;
+  outline: none;
+}
+main form .btn-div #submit:hover {
+  cursor: pointer;
+  background-color: rgba(69, 167, 197, 0.5647058824);
+}/*# sourceMappingURL=contact.css.map */
