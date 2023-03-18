@@ -87,3 +87,8 @@ This will contain the styling of each individual HTML pages.
 ### contact
 
 contacts page can be used to contact
+```
+###  about
+
+about page is about us
+```
